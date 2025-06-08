@@ -1,0 +1,16 @@
+@mixin sombra-suave {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    }
+
+@mixin fondo-footer($color) {
+  background-color: $color;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+@mixin animacion-entrada($nombre) {
+  animation: $nombre 1s ease-out;
+}

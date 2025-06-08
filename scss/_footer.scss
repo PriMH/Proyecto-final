@@ -1,0 +1,9 @@
+@import 'mixins';
+footer {
+  @include fondo-footer($color-texto);
+
+  p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+}

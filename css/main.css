@@ -1,0 +1,162 @@
+.seccion-clara {
+  background-color: #f9f9f9;
+  padding: 3rem 1rem;
+  border-radius: 10px;
+}
+
+header {
+  background-color: #4a90e2;
+  color: white;
+  padding: 2rem;
+}
+header h1 {
+  font-family: "Segoe UI", sans-serif;
+  font-size: 1.8rem;
+  margin: 0;
+  animation: aparecer 1s ease-out;
+}
+header nav ul {
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  list-style: none;
+}
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+  color: #f5a623;
+}
+
+section {
+  padding: 2rem 0;
+}
+
+h2 {
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+
+p.lead {
+  font-size: 1.2rem;
+  max-width: 850px;
+  margin: 0 auto 1rem;
+  line-height: 1.6;
+}
+
+@keyframes aparecer {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes entrada-suave {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+.animacion-bienvenida {
+  animation: entrada-suave 1s ease-out;
+  display: inline-block;
+  color: #4a90e2;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.animacion-imagen {
+  animation: fade-in 1.2s ease-out;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+@keyframes entrar-izquierda {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes entrar-derecha {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes entrar-abajo {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animacion-izquierda {
+  animation: entrar-izquierda 1s ease-out;
+}
+
+.animacion-derecha {
+  animation: entrar-derecha 1s ease-out;
+}
+
+.animacion-abajo {
+  animation: entrar-abajo 1s ease-out;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+  }
+  .card {
+    margin-bottom: 1rem;
+  }
+  footer p {
+    font-size: 0.8rem;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

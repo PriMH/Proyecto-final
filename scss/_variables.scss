@@ -1,0 +1,17 @@
+// colores
+$color-primario: #4a90e2;
+$color-secundario: #f5a623;
+$color-texto: #333;
+
+// tipo de letra
+$fuente-principal: 'Segoe UI', sans-serif;
+
+// espaciado
+$padding-seccion: 2rem;
+$color-fondo-seccion: #f9f9f9;
+
+.seccion-clara {
+  background-color: $color-fondo-seccion;
+  padding: 3rem 1rem;
+  border-radius: 10px;
+}

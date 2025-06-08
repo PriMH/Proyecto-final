@@ -1,0 +1,26 @@
+@import 'variables';
+@import 'header';
+@import 'footer';
+@import 'mixins';
+@import 'cards';
+// Responsive design (versión móvil)
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+  }
+
+  .card {
+    margin-bottom: 1rem;
+  }
+
+  footer p {
+    font-size: 0.8rem;
+  }
+}

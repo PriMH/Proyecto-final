@@ -1,0 +1,46 @@
+@import 'mixins'; 
+@keyframes entrar-izquierda {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes entrar-derecha {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes entrar-abajo {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animacion-izquierda {
+  @include animacion-entrada(entrar-izquierda);
+}
+
+
+.animacion-derecha {
+  @include animacion-entrada(entrar-derecha);
+}
+
+.animacion-abajo {
+  @include animacion-entrada(entrar-abajo);
+}
