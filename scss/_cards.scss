@@ -1,4 +1,6 @@
 @import 'mixins'; 
+
+
 @keyframes entrar-izquierda {
   0% {
     opacity: 0;
@@ -43,4 +45,15 @@
 
 .animacion-abajo {
   @include animacion-entrada(entrar-abajo);
+}
+.card-alquiler {
+  @extend %card-base;
+}
+
+.card-ventas {
+  @extend %card-base;
+}
+
+.card-favorito {
+  @extend %card-base;
 }

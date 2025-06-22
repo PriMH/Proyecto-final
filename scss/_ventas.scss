@@ -1,0 +1,30 @@
+.grid-ventas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.card-ventas {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card-ventas:hover {
+  transform: translateY(-5px);
+}
+
+.card-ventas h3 {
+  font-size: 1.5rem;
+  color: #4a90e2;
+  margin-bottom: 1rem;
+}
+
+.card-ventas ul {
+  padding-left: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.6;
+}

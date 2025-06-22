@@ -14,3 +14,25 @@
 @mixin animacion-entrada($nombre) {
   animation: $nombre 1s ease-out;
 }
+
+
+@mixin titulo-seccion {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: $color-primario;
+}
+
+
+@mixin seccion-estandar {
+  background-color: $color-fondo-seccion;
+  padding: 2rem;
+  @include sombra-suave;
+}
+
+%card-base {
+  padding: 1.5rem;
+  background-color: white;
+  border: 1px solid #ddd;
+  @include sombra-suave;
+}

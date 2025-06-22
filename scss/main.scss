@@ -3,7 +3,22 @@
 @import 'footer';
 @import 'mixins';
 @import 'cards';
-// Responsive design (versión móvil)
+@import 'bienvenida';
+@import 'nosotros';
+@import 'favoritos';
+@import 'alquiler';
+@import 'ventas';
+@import 'contacto';
+
+
+.titulo-seccion,
+.animacion-bienvenida,
+h2.mb-4,
+h2.animacion-bienvenida {
+  @include titulo-seccion;
+}
+
+
 @media (max-width: 768px) {
   header h1 {
     font-size: 1.5rem;
@@ -14,13 +29,122 @@
     flex-direction: column;
     align-items: center;
     padding-left: 0;
+    gap: 0.5rem;
   }
 
-  .card {
+  .card,
+  .card-favorito,
+  .card-ventas,
+  .card-alquiler {
     margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  .grid-favoritos,
+  .grid-ventas,
+  .grid-alquiler,
+  .layout-bienvenida,
+  .layout-nosotros,
+  .grid-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .imagen-bienvenida,
+  .imagen-nosotros {
+    order: -1;
+    text-align: center;
   }
 
   footer p {
     font-size: 0.8rem;
   }
 }
+
+@media (max-width: 576px) {
+  header h1 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .grid-favoritos,
+  .grid-ventas,
+  .grid-alquiler,
+  .layout-bienvenida,
+  .layout-nosotros,
+  .grid-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .card,
+  .card-favorito,
+  .card-ventas,
+  .card-alquiler {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .imagen-bienvenida,
+  .imagen-nosotros {
+    order: -1;
+    text-align: center;
+  }
+
+  footer p {
+    font-size: 0.75rem;
+  }
+}
+
+
+@media (min-width: 577px) and (max-width: 991px) {
+  header h1 {
+    font-size: 1.6rem;
+  }
+
+  nav ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .card,
+  .card-favorito,
+  .card-ventas,
+  .card-alquiler {
+    flex: 1 1 45%;
+    margin-bottom: 1rem;
+  }
+
+  .grid-favoritos,
+  .grid-ventas,
+  .grid-alquiler,
+  .layout-bienvenida,
+  .layout-nosotros,
+  .grid-contacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+}
+
+
+
+@media (min-width: 1200px) {
+  main {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+}
+
+  
+

@@ -1,0 +1,36 @@
+/* _alquiler.scss */
+.grid-alquiler {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.card-alquiler {
+  @extend %card-base;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s;
+}
+
+.card-alquiler h3 {
+  color: #4a90e2;
+  margin-bottom: 1rem;
+}
+
+.card-alquiler ul {
+  padding-left: 1.2rem;
+}
+
+.card-alquiler li {
+  margin-bottom: 0.5rem;
+}
+
+.card-alquiler:hover {
+  transform: translateY(-4px);
+}

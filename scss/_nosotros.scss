@@ -1,0 +1,40 @@
+.layout-nosotros {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 12px;
+
+  .imagen-nosotros img {
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 1rem;
+    @include sombra-suave;
+    animation: fade-in 1.2s ease-out;
+  }
+
+  .contenido-nosotros {
+    h2 {
+      font-size: 2.2rem;
+      color: $color-primario;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    text-align: center;
+
+    .imagen-nosotros {
+      margin-bottom: 1.5rem;
+    }
+  }
+}
