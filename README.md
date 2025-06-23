@@ -39,12 +39,6 @@ Sección para que los usuarios se comuniquen con el equipo. Contiene un formular
 
 ---
 
-## 🌐 Enlace al sitio online
-
-👉 [https://juegospopulares.infinityfreeapp.com](https://juegospopulares.infinityfreeapp.com)
-
----
-
 ## 📁 Estructura general del proyecto
 
 Proyecto-final/
