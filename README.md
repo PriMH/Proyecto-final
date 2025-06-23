@@ -1,3 +1,9 @@
+## 🌐 Enlace al sitio online
+
+👉 [https://juegospopulares.infinityfreeapp.com](https://juegospopulares.infinityfreeapp.com)
+
+---
+
 ## 🎯 Descripción general
 
 **Juegos Populares 2025** es un sitio web completo orientado al público gamer, con el objetivo de informar, entretener y conectar a usuarios con servicios de videojuegos. El proyecto simula una plataforma comercial moderna donde se pueden alquilar consolas, conocer los juegos favoritos de la comunidad, contactar al equipo o realizar compras.
