@@ -1,7 +1,8 @@
-## 🌐 Enlace al sitio online
+## 🌐 Enlaces del Proyecto
 
-👉 [https://juegospopulares.infinityfreeapp.com](https://juegospopulares.wuaze.com/)
+🌐 Sitio Web en InfinityFree: [https://juegospopulares.infinityfreeapp.com](https://juegospopulares.wuaze.com/)
 
+🔗 Sitio Web en GitHub Pages: [https://primh.github.io/Proyecto-final/](https://primh.github.io/Proyecto-final/)
 ---
 
 ## 🎯 Descripción general
