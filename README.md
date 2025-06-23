@@ -1,6 +1,6 @@
 ## 🌐 Enlace al sitio online
 
-👉 [https://juegospopulares.infinityfreeapp.com]([https://juegospopulares.infinityfreeapp.com](https://juegospopulares.wuaze.com/))
+👉 [https://juegospopulares.infinityfreeapp.com](https://juegospopulares.wuaze.com/)
 
 ---
 
